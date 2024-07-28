@@ -7,7 +7,7 @@
 int main(){
 	char infile[100]; // Maximum filename length assumed to be 100 characters
 	char outfile[100]; // Maximum filename length assumed to be 100 characters
-    printf("Please enter the filename where the integers are stored : ");
+    printf("Please enter the filename where the data is stored : ");
     scanf("%s", infile);
     printf("Please enter the filename where the result is to be stored : ");
     scanf("%s", outfile);
