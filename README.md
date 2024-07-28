@@ -45,8 +45,7 @@ This repository contains the implementation of the described clustering algorith
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/cryptyro/K-cluster
-   cd src
+   git clone https://github.com/cryptyro/K-cluster && cd ./K-cluster/src
 2. Run the algorithm with the sample input:
    ```bash
    bash run.sh
