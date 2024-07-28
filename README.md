@@ -3,7 +3,7 @@
 ## Overview
 
 This project implements a clustering algorithm to divide `n` items into `k` groups such that the minimum distance between items in different groups is maximized. 
-The distance, `d(u, v)`, between each pair of items may represent an actual distance or an abstract measure of dissimilarity.
+The distance, `d(u,v)`, between each pair of items may represent an actual distance or an abstract measure of dissimilarity.
 
 ## Goal
 
@@ -29,7 +29,7 @@ The algorithm's correctness can be proven by considering the process of deleting
 #### Proof Outline
 
 1. **Spacing `d` of Clustering `C`**:
-   - The spacing `d` is defined as the length of the `(k-1)`th most expensive edge in the MST.
+   - The spacing `d` is defined as the length of the `(k-1)<sup>th</sup>` most expensive edge in the MST.
 2. **Comparison with Any Other Clustering `C'`**:
    - Consider any other clustering `C'`.
    - There must be at least one pair `p_i`, `p_j` in the same cluster in `C` but in different clusters in `C'`.
