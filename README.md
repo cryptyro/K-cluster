@@ -29,11 +29,11 @@ The algorithm's correctness can be proven by considering the process of deleting
 #### Proof Outline
 
 1. **Spacing `d` of Clustering `C`**:
-   - The spacing `d` is defined as the length of the `(k-1)<sup>th</sup>` most expensive edge in the MST.
+   - The spacing `d` is defined as the length of the (k-1)<sup>th</sup> most expensive edge in the MST.
 2. **Comparison with Any Other Clustering `C'`**:
    - Consider any other clustering `C'`.
-   - There must be at least one pair `p_i`, `p_j` in the same cluster in `C` but in different clusters in `C'`.
-   - In `C`, there is a path `P` between `p_i` and `p_j` with all edges ≤ `d`.
+   - There must be at least one pair p<sub>i</sub>, p<sub>j</sub> in the same cluster in `C` but in different clusters in `C'`.
+   - In `C`, there is a path `P` between p<sub>i</sub> and p<sub>j</sub> with all edges ≤ `d`.
    - In `C'`, at least one edge of `P` must pass between different clusters.
    - Hence, the separation of `C'` must be ≤ `d`.
 
