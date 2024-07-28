@@ -41,6 +41,15 @@ The algorithm's correctness can be proven by considering the process of deleting
 
 This repository contains the implementation of the described clustering algorithm. To run the algorithm, ensure you have the necessary dependencies installed.
 
+### Files
+- `disjointset.h`: Header file for operations on disjoint set data structure (union by rank and path compression).
+- `quicksort.h`: Header file for randomized quicksort.
+- `kruskal.h`: Header file for the Kruskal algorithm.
+- `cluster.h`: Header file for cluster assignment
+- `readfile.h`: Header file to read the data points stored in a file.
+- `main.c`: Example usage of the K-clustering algorithm.
+- `input.txt`: A sample input.
+
 ### Usage
 
 1. Clone the repository:
